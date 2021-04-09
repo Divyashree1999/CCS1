@@ -39,6 +39,7 @@ public class CardRequestController {
 	/**
 	 * This method accepts and validates the parameter and then persists it into the
 	 * CardRequest table
+	 * @param: cardRequest
 	 **/
 	@PostMapping("/addCardRequest")
 	public CardRequest addCardRequest(@RequestBody CardRequest cardRequest) {
