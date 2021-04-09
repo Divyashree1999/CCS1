@@ -24,9 +24,7 @@ import com.cg.css.service.CardRequestService;
  * requests with the action methods
  **/
 /**
- * 
- * @author Divyashree
- *
+ * @author Divya
  */
 @CrossOrigin("*")
 @RestController
